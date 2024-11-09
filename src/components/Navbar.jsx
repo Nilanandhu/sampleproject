@@ -22,11 +22,6 @@ const toggleMenu = ()=>{
             <li><NavLink to='/Images' smooth={true} offset={-260} duration={500}>IMAGES</NavLink></li>
             <li><NavLink to='/Contact' smooth={true} offset={-150} duration={500}><button className='btn'>CONTACT</button></NavLink></li>
 
-            {/* <li>HOME</li>
-            <li>ABOUT</li>
-            <li>MODELS</li>
-            <li>IMAGES</li>
-            <li><button className='btn'>CONTACT</button></li> */}
         </ul>
         <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>
